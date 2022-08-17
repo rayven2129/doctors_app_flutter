@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:doctor_app/sign_up/sign_up.dart';
 
 void main() => runApp(const MyApp());
 
@@ -27,8 +28,8 @@ class MyStatefulWidget extends StatefulWidget {
 }
 
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
-  TextEditingController nameController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
+  //TextEditingController nameController = TextEditingController();
+  //TextEditingController passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -48,28 +49,37 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 )),
             Container(
               padding: const EdgeInsets.all(10),
-              child: TextField(
-                controller: nameController,
-                decoration: const InputDecoration(
+              child: const TextField(
+                //controller: nameController,
+                decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  labelText: 'Mobile number',
+                  labelText: 'Mobile number or Username',
+                ),
+              ),
+            ),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: const TextField(
+                //controller: nameController,
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  labelText: 'Password',
                 ),
               ),
             ),
             Card(
-              margin: const EdgeInsets.only(
-                  top: 50, bottom: 50, left: 30, right: 30),
+              margin: const EdgeInsets.all(10),
               elevation: 20,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left: 20, right: 20),
+                    padding: const EdgeInsets.all(10),
                     child: MaterialButton(
                       elevation: 10,
                       onPressed: () {},
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
                             height: 30.0,
@@ -94,10 +104,13 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
               ),
             ),
             Container(
-                height: 30,
+                height: 40,
                 padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
                 child: ElevatedButton(
-                  child: const Text('Login'),
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(fontSize: 20),
+                  ),
                   onPressed: () {},
                 )),
             Row(
@@ -110,7 +123,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     style: TextStyle(fontSize: 20),
                   ),
                   onPressed: () {
-                    //signup screen
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Signup()));
                   },
                 )
               ],
