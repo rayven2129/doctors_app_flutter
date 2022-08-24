@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1042890170898-dd9ftgt9il3q4kdjrh08ofi245lr6kcs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1042890170898-dd9ftgt9il3q4kdjrh08ofi245lr6kcs</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1042890170898-mm8b3v47kbrc7rbb2qgjlrrpc1b3nklu.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCTyyacygSw9lQD3Hjw_bLeD_DvryNz1PI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1042890170898</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.doctorApp</string>
+	<key>PROJECT_ID</key>
+	<string>doctor-app-flutter-8ca21</string>
+	<key>STORAGE_BUCKET</key>
+	<string>doctor-app-flutter-8ca21.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1042890170898:ios:923750c953e3b739fbaecb</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "312629713851",
+    "project_id": "signin-doctors",
+    "storage_bucket": "signin-doctors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312629713851:android:d34e842efdd0b1871f829e",
+        "android_client_info": {
+          "package_name": "com.example.project_app_doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312629713851-i5dj2a1vh7ln9eje5l2gkh89vhg6l1js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFBWNx5exf5lvxkQLJQEQxApn0hZmwvso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312629713851-i5dj2a1vh7ln9eje5l2gkh89vhg6l1js.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312629713851-qd7evem5tdou7bbcksr43qui3t5mgh2s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.doctorApplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
